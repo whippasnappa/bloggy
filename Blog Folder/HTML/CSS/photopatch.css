@@ -1,0 +1,76 @@
+#cuttpic{
+    height:100%;
+    width: 100%;
+    background-image: url(https://static01.nyt.com/images/2023/07/11/multimedia/28tb-cuttlefish-01-vthc/28tb-cuttlefish-01-vthc-facebookJumbo.jpg);
+    background-size:cover;
+}
+
+
+#mspic{
+    height:100%;
+    width: 100%;
+    background-image: url(https://thearthroblogger.files.wordpress.com/2020/10/mantis-shrimp.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+
+#platypuspic{
+    height:100%;
+    width: 100%;
+    background-image: url(https://images8.alphacoders.com/441/thumb-1920-441643.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+
+#awdpic{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.outdoorjournal.com/wp-content/uploads/Dog-lineup.png);
+    background-size:cover;
+}
+
+
+#snmpic{
+    height:100%;
+    width: 100%;
+    background-image: url(https://i.natgeofe.com/n/8efd45a5-7d1c-4e88-8e93-3f62811d3d4a/01-star-nosed-mole_2x1.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+
+#ayepic{
+    height:100%;
+    width: 100%;
+    background-image: url(https://lemur.duke.edu/wordpress/wp-content/uploads/2017/03/Screen-Shot-2018-04-03-at-2.54.24-PM-550x400_c.png);
+    background-size:cover;
+    background-position: center;
+}
+
+
+#fospic{
+    height:100%;
+    width: 100%;
+    background-image: url(https://images2.alphacoders.com/190/thumb-1920-190720.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+
+.nav{
+    background-image:url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTJpenBkaDludm82ZXcycGJseTJmZ3BnZDk2aXFhaDQyN3lnMGU5MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y1emJyOwRRcXqLjYKe/giphy.gif);
+    background-size: 1fr 75px;
+}
+
+
+.smi{
+    height: 50px;
+    width: 50px; 
+}
+
+img {
+    width: 100%;
+    height:100%;
+}

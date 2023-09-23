@@ -1,0 +1,85 @@
+h1{
+    font-family:"Major Mono Display",serif;
+    max-width: 100%;
+    color: black;
+    background-clip: text; 
+    margin: 0; 
+   text-align: center;
+   background: white;
+   display: inline-block;
+   justify-content: space-evenly;
+}
+ 
+
+h2{
+    font-family:"orbitron",serif;
+    background: white;
+    display: inline-block;
+
+}
+
+
+h3{
+    max-width: 100%;
+    background: white;
+    display: inline-block;
+    margin: auto;
+}
+
+
+h4{
+font-family: "cinzel", serif;
+background: white;
+display: inline-block;
+margin: 5px;
+}
+
+
+h5{
+    /* The small animal in the blog post links */
+    font-family: "bebas neue",serif;
+    font-size:24px;
+    margin:0%;
+    background: white;
+    display: inline-block;
+}
+
+
+p{
+    font-family: "oswald",serif;
+    margin: 10px;
+}
+
+
+strong{
+    text-decoration: un;
+    background: white;
+display: inline-block;
+margin: 0%;
+}
+
+
+p{
+    background: white;
+    display: inline-block;
+}
+
+
+li{
+    background: white;
+    display: inline-block;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    font-family: "oswald" ,serif;
+    padding: 10px;
+    
+}
+
+
+ol{
+    text-align: center;
+    align-content: center;
+    margin: 0;
+    padding: 0%;
+}

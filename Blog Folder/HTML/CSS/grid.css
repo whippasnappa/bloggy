@@ -1,0 +1,147 @@
+@import url(responsive.css);
+.navgrid{
+    display: grid;
+    width: 100%;
+    grid-template-columns:33% 34% 33%;
+    grid-template-rows:75px ;
+    grid-template-areas: 
+    "sr cutt sub";
+    justify-content: space-evenly center;
+    align-items: center;
+    font-size:100%;
+    
+}
+ 
+.cutt{
+  grid-area: cutt;
+  padding: 10px;
+  overflow: hidden;
+}
+
+
+.cutt>h1{
+display: flex;
+flex-wrap:wrap;
+font-size:100%;
+}
+
+
+#sr{
+    grid-area: sr;
+}
+
+
+#sub{
+    grid-area: sub;
+}
+
+
+.blogct{
+    margin: 10px;
+    padding: 0;
+    grid-gap: 5px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    grid-template-rows: 500px 500px 500px 50px;
+    grid-template-areas: 
+        "ct ct ms"
+        "pt awd awd"
+        "snm aye fos"
+        "fb none ig"
+    ;
+}
+
+
+.blogcut{
+    grid-area: ct;
+}
+
+
+.blogshrimp{
+    grid-area: ms;
+}
+
+
+.blogplat{
+    grid-area: pt;
+}
+
+
+.blogawd{
+    grid-area: awd;
+}
+
+
+.blogsnm{
+    grid-area: snm;
+}
+
+
+.blogaye{
+    grid-area: aye;
+}
+
+
+.blogfos{
+    grid-area: fos;
+}
+
+
+#fb{
+    grid-area: fb;
+}
+#ig{
+    grid-area: ig;
+}
+
+.cuttblogct{
+    margin: 0;
+    grid-gap: 1px;
+    display: grid;
+    width:100%;
+    align-items: center;
+    grid-template-columns:100%;
+    grid-auto-rows:minmax(80px);
+    grid-template-areas: 
+    "hd"
+    "pic"
+    "pg"
+    "s1"
+    "s2"
+    "s3"
+    "sd"
+    "ft"
+    ;
+}
+
+
+
+  .header{
+    grid-area: hd;
+  }
+
+  .picture{
+    grid-area: pic;
+  }
+
+  .intro{
+    grid-area: pg;  
+  }
+  .sec1{
+    grid-area: s1;
+  }
+  .sec2{
+    grid-area: s2;
+  }
+  .sec3{
+    grid-area: s3;
+  }
+  .sidebar{
+    grid-area: sd;
+  }
+  .footer{
+    grid-area:ft;
+    margin-top: 50px;
+    justify-content: center ;
+  }
